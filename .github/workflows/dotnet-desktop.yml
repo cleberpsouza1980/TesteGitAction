@@ -29,5 +29,6 @@ jobs:
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
-    - run: dotnet build TesteGitAction.csproj
+    - name: Build aplication
+      run: dotnet build TesteGitAction.csproj
  
