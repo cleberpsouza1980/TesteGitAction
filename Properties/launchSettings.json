@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TesteGtihub": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
