@@ -31,4 +31,7 @@ jobs:
         fetch-depth: 0
     - name: Build aplication
       run: dotnet build TesteGitAction.csproj
+    - name: Run aplication
+      run: dotnet run TesteGitAction.csproj
+      
  
